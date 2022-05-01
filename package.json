@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/namespace-alias2related",
-  "version": "0.0.0",
+  "version": "0.0.8",
   "description": "Return aliases related to a specified alias.",
   "license": "Apache-2.0",
   "author": {
