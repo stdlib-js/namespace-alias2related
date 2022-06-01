@@ -34,30 +34,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/namespace-alias2related
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var alias2related = require( '@stdlib/namespace-alias2related' );
+alias2related = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@umd/browser.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.alias2related;
+})();
+</script>
 ```
 
 #### alias2related( alias )
@@ -98,10 +100,15 @@ var out = alias2related( 'unrecognized_alias_beep_boop_bop_bip' );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
-var aliases = require( '@stdlib/namespace-aliases' );
-var alias2related = require( '@stdlib/namespace-alias2related' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/namespace-aliases@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var list;
 var len;
@@ -117,6 +124,11 @@ for ( i = 0; i < 100; i++ ) {
     v = list[ idx ];
     console.log( 'alias: %s. related: %s.', v, alias2related( v ).join( ', ' ) );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -125,68 +137,7 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- Section for describing a command-line interface. -->
 
-* * *
 
-<section class="cli">
-
-## CLI
-
-<section class="installation">
-
-## Installation
-
-To use the module as a general utility, install the module globally
-
-```bash
-npm install -g @stdlib/namespace-alias2related
-```
-
-</section>
-<!-- CLI usage documentation. -->
-
-
-<section class="usage">
-
-### Usage
-
-```text
-Usage: stdlib-alias2related [options] <alias>
-
-Options:
-
-  -h,    --help                Print this message.
-  -V,    --version             Print the package version.
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- CLI usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- CLI usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```bash
-$ stdlib-alias2related 'base.sin'
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.cli -->
 
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
@@ -290,11 +241,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/namespace/alias2pkg]: https://github.com/stdlib-js/namespace-alias2pkg
+[@stdlib/namespace/alias2pkg]: https://github.com/stdlib-js/namespace-alias2pkg/tree/umd
 
-[@stdlib/namespace/aliases]: https://github.com/stdlib-js/namespace-aliases
+[@stdlib/namespace/aliases]: https://github.com/stdlib-js/namespace-aliases/tree/umd
 
-[@stdlib/namespace/pkg2related]: https://github.com/stdlib-js/namespace-pkg2related
+[@stdlib/namespace/pkg2related]: https://github.com/stdlib-js/namespace-pkg2related/tree/umd
 
 <!-- </related-links> -->
 
