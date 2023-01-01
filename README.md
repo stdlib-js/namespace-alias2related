@@ -34,30 +34,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/namespace-alias2related
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var alias2related = require( '@stdlib/namespace-alias2related' );
+import alias2related from 'https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@esm/index.mjs';
 ```
 
 #### alias2related( alias )
@@ -98,10 +82,15 @@ var out = alias2related( 'unrecognized_alias_beep_boop_bop_bip' );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
-var aliases = require( '@stdlib/namespace-aliases' );
-var alias2related = require( '@stdlib/namespace-alias2related' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
+import aliases from 'https://cdn.jsdelivr.net/gh/stdlib-js/namespace-aliases@esm/index.mjs';
+import alias2related from 'https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@esm/index.mjs';
 
 var list;
 var len;
@@ -117,6 +106,10 @@ for ( i = 0; i < 100; i++ ) {
     v = list[ idx ];
     console.log( 'alias: %s. related: %s.', v, alias2related( v ).join( ', ' ) );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -125,68 +118,7 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- Section for describing a command-line interface. -->
 
-* * *
 
-<section class="cli">
-
-## CLI
-
-<section class="installation">
-
-## Installation
-
-To use the module as a general utility, install the module globally
-
-```bash
-npm install -g @stdlib/namespace-alias2related
-```
-
-</section>
-<!-- CLI usage documentation. -->
-
-
-<section class="usage">
-
-### Usage
-
-```text
-Usage: stdlib-alias2related [options] <alias>
-
-Options:
-
-  -h,    --help                Print this message.
-  -V,    --version             Print the package version.
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- CLI usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- CLI usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```bash
-$ stdlib-alias2related 'base.sin'
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.cli -->
 
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
@@ -229,7 +161,7 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -290,11 +222,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/namespace/alias2pkg]: https://github.com/stdlib-js/namespace-alias2pkg
+[@stdlib/namespace/alias2pkg]: https://github.com/stdlib-js/namespace-alias2pkg/tree/esm
 
-[@stdlib/namespace/aliases]: https://github.com/stdlib-js/namespace-aliases
+[@stdlib/namespace/aliases]: https://github.com/stdlib-js/namespace-aliases/tree/esm
 
-[@stdlib/namespace/pkg2related]: https://github.com/stdlib-js/namespace-pkg2related
+[@stdlib/namespace/pkg2related]: https://github.com/stdlib-js/namespace-pkg2related/tree/esm
 
 <!-- </related-links> -->
 
