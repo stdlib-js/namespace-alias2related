@@ -52,7 +52,7 @@
     "@stdlib/assert-is-browser": "^0.1.1",
     "@stdlib/assert-is-string-array": "^0.1.1",
     "@stdlib/assert-is-windows": "^0.1.1",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/fs-write-file": "^0.1.1",
     "@stdlib/namespace": "^0.1.1",
     "@stdlib/namespace-aliases": "^0.1.0",
