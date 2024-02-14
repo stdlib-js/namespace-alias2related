@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+alias2related = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/namespace-alias2related/tags). For example,
+
+```javascript
 alias2related = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@v0.2.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var alias2related = require( 'path/to/vendor/umd/namespace-alias2related/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -123,7 +128,7 @@ var out = alias2related( 'unrecognized_alias_beep_boop_bop_bip' );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/namespace-aliases@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/namespace-alias2related@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
