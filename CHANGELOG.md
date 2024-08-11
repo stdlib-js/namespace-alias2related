@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2939f56`](https://github.com/stdlib-js/stdlib/commit/2939f5662f4bc178fbe532579380d501ff7b1722) - add `nditerStacks` to namespace
 -   [`082324e`](https://github.com/stdlib-js/stdlib/commit/082324e5c0004e84a711debf81abebf755399f29) - add `nditerSubarrays` to namespace
 -   [`972755d`](https://github.com/stdlib-js/stdlib/commit/972755d8507363c18125a4e046d98ed1010dd531) - add `nditerSelectDimension` to namespace
 
@@ -23,6 +24,7 @@
 
 <details>
 
+-   [`2939f56`](https://github.com/stdlib-js/stdlib/commit/2939f5662f4bc178fbe532579380d501ff7b1722) - **feat:** add `nditerStacks` to namespace _(by Athan Reines)_
 -   [`082324e`](https://github.com/stdlib-js/stdlib/commit/082324e5c0004e84a711debf81abebf755399f29) - **feat:** add `nditerSubarrays` to namespace _(by Athan Reines)_
 -   [`972755d`](https://github.com/stdlib-js/stdlib/commit/972755d8507363c18125a4e046d98ed1010dd531) - **feat:** add `nditerSelectDimension` to namespace _(by Athan Reines)_
 
