@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9ecc3d3`](https://github.com/stdlib-js/stdlib/commit/9ecc3d30b87a0d38cc7608a35024a15c920a2f29) - add `ndreject` to namespace
 -   [`b916456`](https://github.com/stdlib-js/stdlib/commit/b916456714e3c8a4ecaf6605adf4d36188e924f9) - add `ndmap` and `ndfilter` to namespace
 -   [`254fa9e`](https://github.com/stdlib-js/stdlib/commit/254fa9ec906b3a6c62551e13bd0aeef1c1f29af8) - add `Float64ArrayLE`, `Float32ArrayLE`, `Float64ArrayFE`, and `Float32ArrayFE` to namespace
 -   [`a215aba`](https://github.com/stdlib-js/stdlib/commit/a215aba7a01decc26f4d2ea7b7046dafc69ea96b) - add `isndarrayLikeWithDataType` to namespace
@@ -34,6 +35,7 @@
 
 <details>
 
+-   [`9ecc3d3`](https://github.com/stdlib-js/stdlib/commit/9ecc3d30b87a0d38cc7608a35024a15c920a2f29) - **feat:** add `ndreject` to namespace _(by Athan Reines)_
 -   [`b916456`](https://github.com/stdlib-js/stdlib/commit/b916456714e3c8a4ecaf6605adf4d36188e924f9) - **feat:** add `ndmap` and `ndfilter` to namespace _(by Athan Reines)_
 -   [`254fa9e`](https://github.com/stdlib-js/stdlib/commit/254fa9ec906b3a6c62551e13bd0aeef1c1f29af8) - **feat:** add `Float64ArrayLE`, `Float32ArrayLE`, `Float64ArrayFE`, and `Float32ArrayFE` to namespace _(by Athan Reines)_
 -   [`a215aba`](https://github.com/stdlib-js/stdlib/commit/a215aba7a01decc26f4d2ea7b7046dafc69ea96b) - **feat:** add `isndarrayLikeWithDataType` to namespace _(by Athan Reines)_
