@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-06-24)
 
 <section class="features">
 
 ### Features
 
+-   [`d2f83a4`](https://github.com/stdlib-js/stdlib/commit/d2f83a48fa6f6dc3ce8898853e10f557ae5aad1f) - add `isStruct` and `isStructConstructorLike` to namespace
 -   [`840c6e8`](https://github.com/stdlib-js/stdlib/commit/840c6e824a40409e0717b6ea5c002476dd462460) - add `structFactory` to namespace
 -   [`27ace7d`](https://github.com/stdlib-js/stdlib/commit/27ace7d0555fdbd7af3b0ecb1787718c8c84c0f2) - add `ndfillBy` to namespace
 -   [`54a7d5c`](https://github.com/stdlib-js/stdlib/commit/54a7d5cc20b27a462948c69eb330024caf115ed7) - add `ndfill` to namespace
@@ -41,6 +42,7 @@
 
 <details>
 
+-   [`d2f83a4`](https://github.com/stdlib-js/stdlib/commit/d2f83a48fa6f6dc3ce8898853e10f557ae5aad1f) - **feat:** add `isStruct` and `isStructConstructorLike` to namespace _(by Athan Reines)_
 -   [`840c6e8`](https://github.com/stdlib-js/stdlib/commit/840c6e824a40409e0717b6ea5c002476dd462460) - **feat:** add `structFactory` to namespace _(by Athan Reines)_
 -   [`7d29148`](https://github.com/stdlib-js/stdlib/commit/7d29148daa701a3113e72a901fd5096d2a5da4d1) - **docs:** update REPL namespace documentation [(#7232)](https://github.com/stdlib-js/stdlib/pull/7232) _(by stdlib-bot)_
 -   [`a317baf`](https://github.com/stdlib-js/stdlib/commit/a317baf0af91e23d7004c9327f6158b165513472) - **docs:** update REPL namespace documentation [(#7045)](https://github.com/stdlib-js/stdlib/pull/7045) _(by stdlib-bot)_
