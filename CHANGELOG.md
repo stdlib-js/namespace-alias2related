@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-23)
+
+<section class="features">
+
+### Features
+
+-   [`59c3bbc`](https://github.com/stdlib-js/stdlib/commit/59c3bbc847a87bed87718e63d1cc5ffcbd516d6d) - add `Float64Vector` to namespace
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`59c3bbc`](https://github.com/stdlib-js/stdlib/commit/59c3bbc847a87bed87718e63d1cc5ffcbd516d6d) - **feat:** add `Float64Vector` to namespace _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-07)
