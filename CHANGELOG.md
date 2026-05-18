@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`acd9cb5`](https://github.com/stdlib-js/stdlib/commit/acd9cb534835702c42a2aae8f3c6f6ba6fd527a5) - add `falsesLike` to namespace
 -   [`84009d5`](https://github.com/stdlib-js/stdlib/commit/84009d55a5b7bada4eaec2c91275ff4c2983eb4f) - add `trues` to namespace
 -   [`b0c396f`](https://github.com/stdlib-js/stdlib/commit/b0c396f89a069c46c0318356f3746ad833130f50) - add `falses` to namespace
 -   [`67382e1`](https://github.com/stdlib-js/stdlib/commit/67382e1fa3073d0cd5bfdba88e9ae7b61fe61b89) - add top-level `random.*` symbols to namespace
@@ -27,6 +28,7 @@
 
 <details>
 
+-   [`acd9cb5`](https://github.com/stdlib-js/stdlib/commit/acd9cb534835702c42a2aae8f3c6f6ba6fd527a5) - **feat:** add `falsesLike` to namespace _(by Athan Reines)_
 -   [`84009d5`](https://github.com/stdlib-js/stdlib/commit/84009d55a5b7bada4eaec2c91275ff4c2983eb4f) - **feat:** add `trues` to namespace _(by Athan Reines)_
 -   [`b0c396f`](https://github.com/stdlib-js/stdlib/commit/b0c396f89a069c46c0318356f3746ad833130f50) - **feat:** add `falses` to namespace _(by Athan Reines)_
 -   [`4b2c95c`](https://github.com/stdlib-js/stdlib/commit/4b2c95c780601dfa59f0c020c4437b663e576b22) - **docs:** update REPL namespace documentation [(#12108)](https://github.com/stdlib-js/stdlib/pull/12108) _(by stdlib-bot)_
