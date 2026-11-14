@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-06)
+## Unreleased (2026-11-14)
 
 <section class="features">
 
 ### Features
 
+-   [`b8735f5`](https://github.com/stdlib-js/stdlib/commit/b8735f537688806517ad087313de6bf05dba4c82) - add `isNumberOrComplexLike` to namespace
 -   [`b93d8cc`](https://github.com/stdlib-js/stdlib/commit/b93d8ccaff2fd338f81387ac3a37aad66739bcdb) - add `GenericVector` and `GenericMatrix` to namespace
 -   [`ef38572`](https://github.com/stdlib-js/stdlib/commit/ef38572e3e1111ec3660bed84b07789b588849fd) - add `arraybuffer2ndarray` to namespace
 -   [`5492397`](https://github.com/stdlib-js/stdlib/commit/5492397c9793721709993f55f7fef06b2547407c) - add various symbols to namespace
@@ -35,6 +36,7 @@
 
 <details>
 
+-   [`b8735f5`](https://github.com/stdlib-js/stdlib/commit/b8735f537688806517ad087313de6bf05dba4c82) - **feat:** add `isNumberOrComplexLike` to namespace _(by Athan Reines)_
 -   [`b93d8cc`](https://github.com/stdlib-js/stdlib/commit/b93d8ccaff2fd338f81387ac3a37aad66739bcdb) - **feat:** add `GenericVector` and `GenericMatrix` to namespace _(by Athan Reines)_
 -   [`ef38572`](https://github.com/stdlib-js/stdlib/commit/ef38572e3e1111ec3660bed84b07789b588849fd) - **feat:** add `arraybuffer2ndarray` to namespace _(by Athan Reines)_
 -   [`5492397`](https://github.com/stdlib-js/stdlib/commit/5492397c9793721709993f55f7fef06b2547407c) - **feat:** add various symbols to namespace _(by Athan Reines)_
